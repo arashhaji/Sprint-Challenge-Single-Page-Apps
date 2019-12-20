@@ -43,9 +43,9 @@ return (
       <LocationsInfo>
         <div>ID: {props.locations.id}</div>
         <div>Name: {props.locations.name}</div>
-        <div>Gender: {props.locations.gender}</div>
-        <div>Species: {props.locations.species}</div>
-        <div>Origin: {props.locations.origin.name}</div>
+        <div>Type: {props.locations.Type}</div>
+        <div>Dimension: {props.locations.Dimension}</div>
+        <div>Resident: {props.locations.origin.Resident}</div>
       </LocationsInfo>
       <Status>Status: {props.locations.status}</Status>
     </Locations>

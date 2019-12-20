@@ -10,7 +10,7 @@ function SearchForm(props) {
   const submitHandler = e => {
     e.preventDefault();
 
-    const filtered = props.characters.locations.filter(char => {
+    const filtered = props.characters.filter(char => {
       return char.name.toLowerCase().indexOf(results.toLowerCase()) !== -1;
    });
     

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Axios from "axios";
+import axios from "axios";
 import LocationCard from "./LocationCard";
 import SearchForm from "./SearchForm";
 
@@ -20,7 +20,7 @@ export default function LocationsList() {
 
 
 useEffect(() => {
-  Axios.get("https://rickandmortyapi.com/api/location/").then(response => {
+  axios.get("https://rickandmortyapi.com/api/location/").then(response => {
     console.log(response.data.results);
     setLocations(response.data.results);
     updateData(response.data.results);
