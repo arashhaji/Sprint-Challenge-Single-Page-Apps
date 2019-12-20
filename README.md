@@ -25,9 +25,9 @@ In this challenge, you will create a Single Page Application complete with Clien
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
-- [ ]  Explain benefit(s) using `client-side routing`?
+- [x]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: Client side routing is the same as server side routing, but it's ran in the browser. In a typical web application you have several pages which map into different URLs, and each of the pages has some logic and a template which is then rendered
 
 ## Project Set Up
 
